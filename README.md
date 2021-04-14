@@ -10,4 +10,4 @@
 - Initially I was going to use `axios` or `isomorphic-fetch` and allowing this to work for web as well as nodejs 
   however the endpoints do not have open cors policies to allow this, so I ended up using `node-fetch` as this will
   only be running on nodejs.
-- I know there quite a few options to compare objects in the tests, I chose `deep-compare` for simplicity  
+- I know there are quite a few options to compare objects in the tests, I chose `deep-compare` for simplicity  
