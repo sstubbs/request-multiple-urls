@@ -1,6 +1,6 @@
 ## Request Multiple URLs
 1. Error handling
-- Error is returned for use by caller function and not altered so there is no loss of information.
+- Error is returned for use by caller and not altered so there is no loss of information.
 2. Testing
 - `jest` has been used
 - Only unit tests with mocks and no integration tests have been added as only public urls are available which could change
